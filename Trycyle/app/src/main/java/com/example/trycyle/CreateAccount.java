@@ -1,4 +1,5 @@
 package com.example.trycyle;
+
 import  com.example.trycyle.model.user;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +25,7 @@ public class CreateAccount extends AppCompatActivity {
     EditText username,password,email;
     private FirebaseAuth mAuth;
     FirebaseDatabase database;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,5 +68,6 @@ public class CreateAccount extends AppCompatActivity {
 
     void toast(String a){
         Toast.makeText(getApplicationContext(),a,Toast.LENGTH_LONG).show();
+
     }
 }
