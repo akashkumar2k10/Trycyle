@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".CreateAccount">
 
+
     <EditText
         android:id="@+id/name"
         android:layout_width="wrap_content"
@@ -50,4 +51,5 @@
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
