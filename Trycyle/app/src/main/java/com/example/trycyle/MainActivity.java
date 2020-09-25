@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //buutons
+
         createAcc = findViewById(R.id.createAccount);
         signin=findViewById(R.id.signin);
         mAuth=FirebaseAuth.getInstance();
@@ -56,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 toast("create accout");
+                Intent intent=new Intent(MainActivity.this , CreateAccount.class);
+                startActivity(intent);
 
             }
         });
