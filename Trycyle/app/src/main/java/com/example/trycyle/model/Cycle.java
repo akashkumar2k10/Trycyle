@@ -3,6 +3,7 @@ package com.example.trycyle.model;
 public class Cycle {
     String name;
     String code;
+
     String status;  //0 mean free and 1 mean taken
 
 
@@ -11,6 +12,7 @@ public class Cycle {
         this.name = name;
         this.code = code;
         this.status=status;
+
     }
 
     public String getName() {
@@ -21,7 +23,9 @@ public class Cycle {
         return code;
     }
 
+
     public String getStatus() {
         return status;
     }
+
 }
