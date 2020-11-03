@@ -1,7 +1,6 @@
 package com.example.trycyle.model;
 
 public class CycleTransaction {
-
     
     Cycle c;
     String Uid;
@@ -33,4 +32,5 @@ public class CycleTransaction {
     public int getRate() {
         return rate;
     }
+
 }
