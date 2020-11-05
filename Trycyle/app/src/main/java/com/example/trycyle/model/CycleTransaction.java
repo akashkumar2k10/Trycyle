@@ -7,6 +7,7 @@ public class CycleTransaction {
     String Uid;
     int rate;
 
+
     long time;
 
 
@@ -30,6 +31,7 @@ public class CycleTransaction {
     public String getUid() {
         return Uid;
     }
+
 
     public int getRate() {
         return rate;
